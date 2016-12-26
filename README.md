@@ -10,27 +10,27 @@ An ASP.NET Core Web Api for returning Magic the Gathering Cards
 ## How to download/clone this project:
 
 *   Navigate to the directory where you want to put this project and run this in the Command Prompt or Terminal:
-    ```bash
-    $  git clone https://github.com/csharpie/api-magicTheGathering
-    ```
+```bash
+$  git clone https://github.com/csharpie/api-magicTheGathering
+```
 
 ## How to initialize this project:
 
 *   cd (change directory) into the directory where you cloned this project
-    ```bash
-    $  cd api-magicTheGathering/
-    ```
+```bash
+$  cd api-magicTheGathering/
+```
 *   Run the dotnet project restore command to download all the Nuget packages associated with this API
-    ```bash
-    $  dotnet restore
-    ```
+```bash
+$  dotnet restore
+```
 
 ## How to startup this API:
 
 *   Let's start it up!
-    ```bash
-    $  dotnet run
-    ```
+```bash
+$  dotnet run
+```
 
 ## Overview:
 
