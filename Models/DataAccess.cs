@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using MongoDB.Driver;
+using MongoDB.Driver.Builders;
 
 namespace api_magicTheGathering.Models
 {
@@ -18,7 +19,8 @@ namespace api_magicTheGathering.Models
  
         public IEnumerable<Card> GetCards()
         {
-            return _db.GetCollection<Card>("cards").FindAll();
+            var sort = SortBy.Descending("cmc");
+            return _db.GetCollection<Card>("cards").FindAll().SetSortOrder(sort);
         }
     }
 }
